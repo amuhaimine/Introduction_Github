@@ -1,0 +1,230 @@
+{
+  "filename": "MW1.arff",
+  "relation_name": "MW1",
+  "num_instances": 253,
+  "num_attributes": 38,
+  "attribute_info": {
+    "LOC_BLANK": {
+      "type": "numeric",
+      "index": 0
+    },
+    "BRANCH_COUNT": {
+      "type": "numeric",
+      "index": 1
+    },
+    "CALL_PAIRS": {
+      "type": "numeric",
+      "index": 2
+    },
+    "LOC_CODE_AND_COMMENT": {
+      "type": "numeric",
+      "index": 3
+    },
+    "LOC_COMMENTS": {
+      "type": "numeric",
+      "index": 4
+    },
+    "CONDITION_COUNT": {
+      "type": "numeric",
+      "index": 5
+    },
+    "CYCLOMATIC_COMPLEXITY": {
+      "type": "numeric",
+      "index": 6
+    },
+    "CYCLOMATIC_DENSITY": {
+      "type": "numeric",
+      "index": 7
+    },
+    "DECISION_COUNT": {
+      "type": "numeric",
+      "index": 8
+    },
+    "DECISION_DENSITY": {
+      "type": "numeric",
+      "index": 9
+    },
+    "DESIGN_COMPLEXITY": {
+      "type": "numeric",
+      "index": 10
+    },
+    "DESIGN_DENSITY": {
+      "type": "numeric",
+      "index": 11
+    },
+    "EDGE_COUNT": {
+      "type": "numeric",
+      "index": 12
+    },
+    "ESSENTIAL_COMPLEXITY": {
+      "type": "numeric",
+      "index": 13
+    },
+    "ESSENTIAL_DENSITY": {
+      "type": "numeric",
+      "index": 14
+    },
+    "LOC_EXECUTABLE": {
+      "type": "numeric",
+      "index": 15
+    },
+    "PARAMETER_COUNT": {
+      "type": "numeric",
+      "index": 16
+    },
+    "HALSTEAD_CONTENT": {
+      "type": "numeric",
+      "index": 17
+    },
+    "HALSTEAD_DIFFICULTY": {
+      "type": "numeric",
+      "index": 18
+    },
+    "HALSTEAD_EFFORT": {
+      "type": "numeric",
+      "index": 19
+    },
+    "HALSTEAD_ERROR_EST": {
+      "type": "numeric",
+      "index": 20
+    },
+    "HALSTEAD_LENGTH": {
+      "type": "numeric",
+      "index": 21
+    },
+    "HALSTEAD_LEVEL": {
+      "type": "numeric",
+      "index": 22
+    },
+    "HALSTEAD_PROG_TIME": {
+      "type": "numeric",
+      "index": 23
+    },
+    "HALSTEAD_VOLUME": {
+      "type": "numeric",
+      "index": 24
+    },
+    "MAINTENANCE_SEVERITY": {
+      "type": "numeric",
+      "index": 25
+    },
+    "MODIFIED_CONDITION_COUNT": {
+      "type": "numeric",
+      "index": 26
+    },
+    "MULTIPLE_CONDITION_COUNT": {
+      "type": "numeric",
+      "index": 27
+    },
+    "NODE_COUNT": {
+      "type": "numeric",
+      "index": 28
+    },
+    "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+      "type": "numeric",
+      "index": 29
+    },
+    "NUM_OPERANDS": {
+      "type": "numeric",
+      "index": 30
+    },
+    "NUM_OPERATORS": {
+      "type": "numeric",
+      "index": 31
+    },
+    "NUM_UNIQUE_OPERANDS": {
+      "type": "numeric",
+      "index": 32
+    },
+    "NUM_UNIQUE_OPERATORS": {
+      "type": "numeric",
+      "index": 33
+    },
+    "NUMBER_OF_LINES": {
+      "type": "numeric",
+      "index": 34
+    },
+    "PERCENT_COMMENTS": {
+      "type": "numeric",
+      "index": 35
+    },
+    "LOC_TOTAL": {
+      "type": "numeric",
+      "index": 36
+    },
+    "Defective": {
+      "type": "nominal",
+      "index": 37
+    }
+  },
+  "class_distribution": {
+    "HALSTEAD_ERROR_EST": {
+      "0.04": 15,
+      "0.06": 15,
+      "0.07": 15,
+      "0.08": 12,
+      "0.02": 11,
+      "0.1": 11,
+      "0.05": 10,
+      "0.13": 9,
+      "0.03": 9,
+      "0.12": 9,
+      "0.09": 8,
+      "0.14": 7,
+      "0.25": 7,
+      "0.18": 5,
+      "0.11": 5,
+      "0.2": 5,
+      "0.16": 5,
+      "0.15": 4,
+      "0.19": 4,
+      "0.29": 4,
+      "0.24": 4,
+      "0.21": 4,
+      "0.22": 4,
+      "0.47": 3,
+      "0.01": 3,
+      "0.48": 3,
+      "0.23": 3,
+      "0.3": 3,
+      "0.41": 3,
+      "0.46": 3,
+      "0.26": 3,
+      "0.45": 3,
+      "0.36": 3,
+      "0.38": 3,
+      "0.54": 3,
+      "0.17": 3,
+      "0.34": 2,
+      "0.72": 2,
+      "0.49": 2,
+      "0.37": 2,
+      "0.32": 2,
+      "0.39": 2,
+      "0.42": 2,
+      "0.6": 2,
+      "0.27": 1,
+      "0.4": 1,
+      "0.43": 1,
+      "0.28": 1,
+      "1.1": 1,
+      "1.24": 1,
+      "0.59": 1,
+      "0.88": 1,
+      "0.52": 1,
+      "0.7": 1,
+      "0.58": 1,
+      "0.55": 1,
+      "0.57": 1,
+      "0.87": 1,
+      "0.51": 1,
+      "0.35": 1
+    },
+    "Defective": {
+      "N": 226,
+      "Y": 27
+    }
+  },
+  "missing_values": {},
+  "processed_date": "2025-07-07T14:16:03.146757"
+}

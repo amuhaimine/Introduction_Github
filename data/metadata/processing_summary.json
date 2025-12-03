@@ -1,0 +1,3490 @@
+{
+  "processing_date": "2025-07-07T14:16:03.472180",
+  "total_files": 13,
+  "successfully_processed": 13,
+  "failed_files": [],
+  "processed_files": [
+    "CM1",
+    "JM1",
+    "KC1",
+    "KC3",
+    "KC4",
+    "MC1",
+    "MC2",
+    "MW1",
+    "PC1",
+    "PC2",
+    "PC3",
+    "PC4",
+    "PC5"
+  ],
+  "datasets": {
+    "CM1": {
+      "filename": "CM1.arff",
+      "relation_name": "CM1",
+      "num_instances": 327,
+      "num_attributes": 38,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "CALL_PAIRS": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 3
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 4
+        },
+        "CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 5
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "CYCLOMATIC_DENSITY": {
+          "type": "numeric",
+          "index": 7
+        },
+        "DECISION_COUNT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "DECISION_DENSITY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 10
+        },
+        "DESIGN_DENSITY": {
+          "type": "numeric",
+          "index": 11
+        },
+        "EDGE_COUNT": {
+          "type": "numeric",
+          "index": 12
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 13
+        },
+        "ESSENTIAL_DENSITY": {
+          "type": "numeric",
+          "index": 14
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 15
+        },
+        "PARAMETER_COUNT": {
+          "type": "numeric",
+          "index": 16
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 17
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 18
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 19
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 20
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 21
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 22
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 23
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 24
+        },
+        "MAINTENANCE_SEVERITY": {
+          "type": "numeric",
+          "index": 25
+        },
+        "MODIFIED_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 26
+        },
+        "MULTIPLE_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 27
+        },
+        "NODE_COUNT": {
+          "type": "numeric",
+          "index": 28
+        },
+        "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 29
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 30
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 31
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 32
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 33
+        },
+        "NUMBER_OF_LINES": {
+          "type": "numeric",
+          "index": 34
+        },
+        "PERCENT_COMMENTS": {
+          "type": "numeric",
+          "index": 35
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 36
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 37
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.06": 16,
+          "0.12": 14,
+          "0.1": 13,
+          "0.04": 12,
+          "0.09": 12,
+          "0.18": 11,
+          "0.02": 10,
+          "0.05": 10,
+          "0.16": 9,
+          "0.13": 8,
+          "0.11": 8,
+          "0.03": 8,
+          "0.17": 8,
+          "0.08": 7,
+          "0.25": 6,
+          "0.24": 6,
+          "0.15": 6,
+          "0.28": 6,
+          "0.2": 5,
+          "0.07": 5,
+          "0.21": 5,
+          "0.3": 5,
+          "0.14": 5,
+          "0.26": 4,
+          "0.43": 4,
+          "0.19": 4,
+          "0.27": 4,
+          "0.58": 4,
+          "0.35": 4,
+          "0.54": 4,
+          "0.87": 3,
+          "0.22": 3,
+          "0.41": 3,
+          "1.86": 3,
+          "0.44": 3,
+          "0.38": 3,
+          "0.37": 3,
+          "0.31": 3,
+          "0.72": 3,
+          "0.29": 2,
+          "0.52": 2,
+          "1.11": 2,
+          "0.5": 2,
+          "1.04": 2,
+          "0.55": 2,
+          "0.76": 2,
+          "0.66": 2,
+          "0.34": 2,
+          "0.23": 2,
+          "0.36": 2,
+          "1.25": 2,
+          "1.71": 1,
+          "1.39": 1,
+          "0.57": 1,
+          "0.77": 1,
+          "3.05": 1,
+          "0.93": 1,
+          "4.25": 1,
+          "1.69": 1,
+          "1.06": 1,
+          "5.12": 1,
+          "0.8": 1,
+          "1.56": 1,
+          "2.84": 1,
+          "0.01": 1,
+          "0.9": 1,
+          "0.91": 1,
+          "1.4": 1,
+          "0.53": 1,
+          "1.05": 1,
+          "1.27": 1,
+          "0.45": 1,
+          "1.34": 1,
+          "1.65": 1,
+          "1.15": 1,
+          "1.7": 1,
+          "1.22": 1,
+          "1.43": 1,
+          "0.6": 1,
+          "0.42": 1,
+          "0.59": 1,
+          "1.67": 1,
+          "1.74": 1,
+          "1.82": 1,
+          "0.73": 1,
+          "1.09": 1,
+          "0.48": 1,
+          "1.12": 1,
+          "1.16": 1,
+          "0.88": 1,
+          "0.33": 1,
+          "0.68": 1,
+          "1.0": 1,
+          "1.89": 1,
+          "1.14": 1,
+          "0.32": 1,
+          "2.08": 1,
+          "0.83": 1,
+          "0.65": 1,
+          "0.61": 1,
+          "0.49": 1,
+          "1.2": 1,
+          "5.56": 1,
+          "1.95": 1
+        },
+        "Defective": {
+          "N": 285,
+          "Y": 42
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:02.704093"
+    },
+    "JM1": {
+      "filename": "JM1.arff",
+      "relation_name": "JM1",
+      "num_instances": 7782,
+      "num_attributes": 22,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 3
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 4
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 5
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 7
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 10
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 11
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 12
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 13
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 14
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 15
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 16
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 17
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 18
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 19
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 20
+        },
+        "label": {
+          "type": "nominal",
+          "index": 21
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.02": 464,
+          "0.03": 446,
+          "0.04": 399,
+          "0.06": 386,
+          "0.05": 361,
+          "0.07": 319,
+          "0.08": 313,
+          "0.01": 309,
+          "0.09": 294,
+          "0.11": 236,
+          "0.1": 228,
+          "0.14": 195,
+          "0.12": 194,
+          "0.13": 192,
+          "0.18": 152,
+          "0.17": 144,
+          "0.15": 143,
+          "0.16": 133,
+          "0.21": 114,
+          "0.22": 111,
+          "0.23": 110,
+          "0.19": 104,
+          "0.2": 97,
+          "0.26": 88,
+          "0.24": 86,
+          "0.0": 83,
+          "0.25": 79,
+          "0.29": 72,
+          "0.27": 70,
+          "0.31": 62,
+          "0.28": 56,
+          "0.3": 53,
+          "0.32": 52,
+          "0.34": 49,
+          "0.33": 47,
+          "0.4": 47,
+          "0.35": 43,
+          "0.38": 41,
+          "0.36": 38,
+          "0.41": 38,
+          "0.37": 34,
+          "0.45": 34,
+          "0.43": 33,
+          "0.46": 31,
+          "0.42": 29,
+          "0.39": 29,
+          "0.48": 28,
+          "0.47": 27,
+          "0.44": 26,
+          "0.5": 25,
+          "0.54": 25,
+          "0.49": 25,
+          "0.55": 21,
+          "0.58": 20,
+          "0.6": 20,
+          "0.56": 20,
+          "0.53": 19,
+          "0.67": 18,
+          "0.69": 18,
+          "0.63": 17,
+          "0.61": 17,
+          "0.66": 16,
+          "0.64": 16,
+          "0.59": 16,
+          "0.84": 15,
+          "0.51": 15,
+          "0.57": 15,
+          "0.52": 14,
+          "0.74": 14,
+          "0.75": 13,
+          "0.88": 12,
+          "0.76": 12,
+          "0.86": 12,
+          "0.68": 12,
+          "0.65": 11,
+          "0.72": 11,
+          "0.7": 11,
+          "0.89": 11,
+          "0.82": 11,
+          "0.8": 10,
+          "0.79": 10,
+          "0.92": 10,
+          "0.83": 10,
+          "0.81": 10,
+          "0.91": 10,
+          "0.71": 10,
+          "0.73": 9,
+          "0.96": 9,
+          "0.94": 9,
+          "0.62": 9,
+          "0.93": 8,
+          "0.98": 8,
+          "0.77": 8,
+          "0.9": 7,
+          "1.01": 7,
+          "1.04": 7,
+          "1.11": 7,
+          "1.15": 7,
+          "1.13": 7,
+          "0.78": 6,
+          "0.95": 6,
+          "0.87": 6,
+          "1.3": 5,
+          "1.82": 5,
+          "1.14": 5,
+          "1.05": 5,
+          "1.27": 5,
+          "1.28": 5,
+          "1.34": 5,
+          "1.24": 5,
+          "1.25": 5,
+          "2.0": 5,
+          "0.85": 5,
+          "1.06": 5,
+          "2.02": 5,
+          "1.22": 5,
+          "1.42": 5,
+          "1.0": 5,
+          "1.74": 4,
+          "1.41": 4,
+          "1.23": 4,
+          "1.2": 4,
+          "1.4": 4,
+          "2.05": 4,
+          "1.16": 4,
+          "1.53": 4,
+          "1.09": 4,
+          "1.08": 4,
+          "1.02": 4,
+          "1.83": 4,
+          "1.12": 4,
+          "1.6": 4,
+          "1.1": 4,
+          "1.26": 4,
+          "1.21": 4,
+          "0.99": 3,
+          "1.55": 3,
+          "1.36": 3,
+          "1.64": 3,
+          "1.29": 3,
+          "2.07": 3,
+          "1.03": 3,
+          "1.57": 3,
+          "1.18": 3,
+          "1.58": 3,
+          "1.61": 3,
+          "1.62": 3,
+          "1.07": 3,
+          "1.85": 3,
+          "1.45": 3,
+          "2.47": 3,
+          "1.32": 3,
+          "1.87": 3,
+          "3.1": 3,
+          "0.97": 3,
+          "1.19": 3,
+          "1.54": 3,
+          "1.51": 3,
+          "2.53": 2,
+          "1.49": 2,
+          "2.45": 2,
+          "2.88": 2,
+          "2.4": 2,
+          "1.31": 2,
+          "2.82": 2,
+          "1.5": 2,
+          "1.7": 2,
+          "1.69": 2,
+          "1.72": 2,
+          "1.96": 2,
+          "1.78": 2,
+          "3.04": 2,
+          "1.52": 2,
+          "2.26": 2,
+          "1.99": 2,
+          "1.44": 2,
+          "3.03": 2,
+          "2.6": 2,
+          "1.48": 2,
+          "3.22": 2,
+          "1.9": 2,
+          "2.29": 2,
+          "2.34": 2,
+          "2.12": 2,
+          "1.37": 2,
+          "1.46": 2,
+          "1.63": 2,
+          "1.76": 2,
+          "2.92": 2,
+          "3.14": 2,
+          "1.81": 2,
+          "2.63": 2,
+          "4.51": 1,
+          "5.31": 1,
+          "2.65": 1,
+          "1.35": 1,
+          "3.17": 1,
+          "5.53": 1,
+          "4.52": 1,
+          "3.21": 1,
+          "1.94": 1,
+          "4.77": 1,
+          "2.66": 1,
+          "5.14": 1,
+          "3.99": 1,
+          "6.95": 1,
+          "2.83": 1,
+          "2.89": 1,
+          "2.18": 1,
+          "3.59": 1,
+          "26.95": 1,
+          "2.38": 1,
+          "3.66": 1,
+          "18.38": 1,
+          "2.61": 1,
+          "11.01": 1,
+          "3.11": 1,
+          "2.37": 1,
+          "2.13": 1,
+          "1.84": 1,
+          "2.55": 1,
+          "6.67": 1,
+          "1.71": 1,
+          "9.36": 1,
+          "6.13": 1,
+          "4.14": 1,
+          "2.52": 1,
+          "2.77": 1,
+          "2.62": 1,
+          "5.07": 1,
+          "7.53": 1,
+          "5.23": 1,
+          "1.8": 1,
+          "4.05": 1,
+          "1.59": 1,
+          "2.96": 1,
+          "2.23": 1,
+          "2.94": 1,
+          "4.56": 1,
+          "2.06": 1,
+          "1.73": 1,
+          "3.62": 1,
+          "2.27": 1,
+          "4.09": 1,
+          "3.8": 1,
+          "2.33": 1,
+          "5.99": 1,
+          "1.98": 1,
+          "1.65": 1,
+          "4.24": 1,
+          "15.65": 1,
+          "1.89": 1,
+          "3.49": 1,
+          "5.45": 1,
+          "7.5": 1,
+          "13.74": 1,
+          "10.41": 1,
+          "3.38": 1,
+          "2.16": 1,
+          "4.76": 1,
+          "3.23": 1,
+          "2.15": 1,
+          "1.43": 1,
+          "4.73": 1,
+          "2.73": 1,
+          "1.68": 1,
+          "1.56": 1,
+          "3.48": 1,
+          "1.75": 1,
+          "4.32": 1,
+          "3.61": 1,
+          "3.88": 1,
+          "3.02": 1,
+          "3.39": 1,
+          "2.81": 1,
+          "2.1": 1,
+          "4.79": 1,
+          "11.98": 1,
+          "6.58": 1,
+          "2.57": 1,
+          "3.74": 1,
+          "2.71": 1,
+          "1.67": 1,
+          "1.39": 1,
+          "1.91": 1,
+          "3.95": 1,
+          "2.46": 1,
+          "4.84": 1,
+          "1.17": 1,
+          "3.0": 1,
+          "3.78": 1,
+          "4.69": 1,
+          "1.93": 1,
+          "1.88": 1,
+          "5.33": 1,
+          "5.13": 1,
+          "1.95": 1,
+          "1.47": 1
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:02.826985"
+    },
+    "KC1": {
+      "filename": "KC1.arff",
+      "relation_name": "KC1",
+      "num_instances": 1183,
+      "num_attributes": 22,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 3
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 4
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 5
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 7
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 10
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 11
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 12
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 13
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 14
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 15
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 16
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 17
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 18
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 19
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 20
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 21
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.01": 157,
+          "0.02": 93,
+          "0.03": 88,
+          "0.04": 80,
+          "0.0": 76,
+          "0.05": 55,
+          "0.06": 46,
+          "0.07": 38,
+          "0.08": 36,
+          "0.1": 34,
+          "0.12": 30,
+          "0.09": 27,
+          "0.11": 25,
+          "0.16": 24,
+          "0.14": 24,
+          "0.18": 18,
+          "0.17": 17,
+          "0.15": 16,
+          "0.2": 15,
+          "0.24": 14,
+          "0.27": 13,
+          "0.26": 13,
+          "0.19": 12,
+          "0.3": 11,
+          "0.23": 11,
+          "0.13": 11,
+          "0.25": 11,
+          "0.21": 11,
+          "0.31": 10,
+          "0.36": 9,
+          "0.32": 8,
+          "0.22": 8,
+          "0.42": 7,
+          "0.35": 7,
+          "0.37": 7,
+          "0.33": 6,
+          "0.28": 6,
+          "0.43": 5,
+          "0.5": 5,
+          "0.63": 5,
+          "0.55": 5,
+          "0.4": 5,
+          "0.34": 5,
+          "0.6": 4,
+          "0.54": 4,
+          "0.44": 4,
+          "0.45": 3,
+          "0.67": 3,
+          "0.77": 3,
+          "0.68": 3,
+          "0.85": 3,
+          "0.82": 2,
+          "0.74": 2,
+          "0.41": 2,
+          "0.52": 2,
+          "0.29": 2,
+          "0.72": 2,
+          "0.84": 2,
+          "0.57": 2,
+          "0.58": 2,
+          "0.48": 2,
+          "1.01": 2,
+          "0.93": 2,
+          "0.39": 1,
+          "0.75": 1,
+          "0.97": 1,
+          "0.69": 1,
+          "0.38": 1,
+          "1.0": 1,
+          "1.27": 1,
+          "0.98": 1,
+          "0.7": 1,
+          "1.1": 1,
+          "0.71": 1,
+          "0.96": 1,
+          "0.53": 1,
+          "0.94": 1,
+          "1.74": 1,
+          "1.16": 1,
+          "1.06": 1,
+          "0.66": 1,
+          "0.47": 1,
+          "1.12": 1,
+          "0.76": 1,
+          "2.64": 1,
+          "1.09": 1,
+          "0.81": 1,
+          "0.59": 1,
+          "0.62": 1,
+          "0.49": 1,
+          "1.04": 1
+        },
+        "Defective": {
+          "N": 869,
+          "Y": 314
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:02.962834"
+    },
+    "KC3": {
+      "filename": "KC3.arff",
+      "relation_name": "KC3",
+      "num_instances": 194,
+      "num_attributes": 40,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "CALL_PAIRS": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 3
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 4
+        },
+        "CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 5
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "CYCLOMATIC_DENSITY": {
+          "type": "numeric",
+          "index": 7
+        },
+        "DECISION_COUNT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "DECISION_DENSITY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 10
+        },
+        "DESIGN_DENSITY": {
+          "type": "numeric",
+          "index": 11
+        },
+        "EDGE_COUNT": {
+          "type": "numeric",
+          "index": 12
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 13
+        },
+        "ESSENTIAL_DENSITY": {
+          "type": "numeric",
+          "index": 14
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 15
+        },
+        "PARAMETER_COUNT": {
+          "type": "numeric",
+          "index": 16
+        },
+        "GLOBAL_DATA_COMPLEXITY": {
+          "type": "numeric",
+          "index": 17
+        },
+        "GLOBAL_DATA_DENSITY": {
+          "type": "numeric",
+          "index": 18
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 19
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 20
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 21
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 22
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 23
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 24
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 25
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 26
+        },
+        "MAINTENANCE_SEVERITY": {
+          "type": "numeric",
+          "index": 27
+        },
+        "MODIFIED_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 28
+        },
+        "MULTIPLE_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 29
+        },
+        "NODE_COUNT": {
+          "type": "numeric",
+          "index": 30
+        },
+        "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 31
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 32
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 33
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 34
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 35
+        },
+        "NUMBER_OF_LINES": {
+          "type": "numeric",
+          "index": 36
+        },
+        "PERCENT_COMMENTS": {
+          "type": "numeric",
+          "index": 37
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 38
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 39
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.07": 10,
+          "0.08": 9,
+          "0.11": 9,
+          "0.05": 8,
+          "0.09": 8,
+          "0.1": 7,
+          "0.15": 7,
+          "0.18": 6,
+          "0.23": 6,
+          "0.14": 6,
+          "0.12": 5,
+          "0.17": 4,
+          "0.32": 4,
+          "0.03": 4,
+          "0.04": 4,
+          "0.22": 4,
+          "0.13": 4,
+          "0.16": 4,
+          "0.2": 3,
+          "1.09": 3,
+          "0.27": 3,
+          "0.25": 3,
+          "0.06": 3,
+          "0.38": 2,
+          "0.37": 2,
+          "0.59": 2,
+          "0.56": 2,
+          "0.46": 2,
+          "0.24": 2,
+          "0.61": 2,
+          "0.28": 2,
+          "0.42": 2,
+          "0.45": 2,
+          "0.43": 2,
+          "0.84": 2,
+          "0.58": 2,
+          "0.81": 2,
+          "0.19": 2,
+          "0.76": 2,
+          "0.36": 2,
+          "0.51": 2,
+          "0.71": 2,
+          "1.16": 1,
+          "0.79": 1,
+          "0.68": 1,
+          "1.54": 1,
+          "0.53": 1,
+          "0.31": 1,
+          "1.88": 1,
+          "0.91": 1,
+          "0.6": 1,
+          "0.33": 1,
+          "3.23": 1,
+          "0.21": 1,
+          "1.63": 1,
+          "1.57": 1,
+          "0.5": 1,
+          "1.36": 1,
+          "0.82": 1,
+          "0.39": 1,
+          "1.56": 1,
+          "0.62": 1,
+          "1.3": 1,
+          "0.74": 1,
+          "0.73": 1,
+          "1.1": 1,
+          "3.56": 1,
+          "0.94": 1,
+          "0.75": 1,
+          "1.37": 1,
+          "0.72": 1,
+          "0.02": 1,
+          "2.04": 1,
+          "0.63": 1
+        },
+        "Defective": {
+          "N": 158,
+          "Y": 36
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:02.989344"
+    },
+    "KC4": {
+      "filename": "KC4.arff",
+      "relation_name": "KC4",
+      "num_instances": 0,
+      "num_attributes": 1,
+      "attribute_info": {
+        "Defective": {
+          "type": "nominal",
+          "index": 0
+        }
+      },
+      "class_distribution": {
+        "Defective": {}
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:03.019076"
+    },
+    "MC1": {
+      "filename": "MC1.arff",
+      "relation_name": "MC1",
+      "num_instances": 1988,
+      "num_attributes": 39,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "CALL_PAIRS": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 3
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 4
+        },
+        "CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 5
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "CYCLOMATIC_DENSITY": {
+          "type": "numeric",
+          "index": 7
+        },
+        "DECISION_COUNT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "DESIGN_DENSITY": {
+          "type": "numeric",
+          "index": 10
+        },
+        "EDGE_COUNT": {
+          "type": "numeric",
+          "index": 11
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 12
+        },
+        "ESSENTIAL_DENSITY": {
+          "type": "numeric",
+          "index": 13
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 14
+        },
+        "PARAMETER_COUNT": {
+          "type": "numeric",
+          "index": 15
+        },
+        "GLOBAL_DATA_COMPLEXITY": {
+          "type": "numeric",
+          "index": 16
+        },
+        "GLOBAL_DATA_DENSITY": {
+          "type": "numeric",
+          "index": 17
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 18
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 19
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 20
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 21
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 22
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 23
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 24
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 25
+        },
+        "MAINTENANCE_SEVERITY": {
+          "type": "numeric",
+          "index": 26
+        },
+        "MODIFIED_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 27
+        },
+        "MULTIPLE_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 28
+        },
+        "NODE_COUNT": {
+          "type": "numeric",
+          "index": 29
+        },
+        "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 30
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 31
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 32
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 33
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 34
+        },
+        "NUMBER_OF_LINES": {
+          "type": "numeric",
+          "index": 35
+        },
+        "PERCENT_COMMENTS": {
+          "type": "numeric",
+          "index": 36
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 37
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 38
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.01": 281,
+          "0.02": 171,
+          "0.03": 127,
+          "0.05": 103,
+          "0.07": 95,
+          "0.0": 93,
+          "0.04": 91,
+          "0.06": 71,
+          "0.09": 69,
+          "0.1": 49,
+          "0.08": 49,
+          "0.11": 45,
+          "0.13": 44,
+          "0.17": 43,
+          "0.14": 41,
+          "0.12": 36,
+          "0.15": 34,
+          "0.16": 33,
+          "0.19": 28,
+          "0.22": 24,
+          "0.18": 21,
+          "0.2": 21,
+          "0.25": 15,
+          "0.3": 14,
+          "0.33": 14,
+          "0.26": 13,
+          "0.31": 13,
+          "0.36": 13,
+          "0.23": 12,
+          "0.21": 12,
+          "0.32": 12,
+          "0.49": 12,
+          "0.37": 11,
+          "0.24": 11,
+          "0.34": 11,
+          "0.42": 10,
+          "0.27": 10,
+          "0.29": 9,
+          "0.5": 9,
+          "0.53": 9,
+          "0.56": 8,
+          "0.44": 8,
+          "0.45": 7,
+          "0.43": 7,
+          "0.46": 7,
+          "0.57": 7,
+          "0.35": 7,
+          "0.66": 6,
+          "0.4": 6,
+          "0.38": 6,
+          "0.65": 6,
+          "0.63": 5,
+          "0.47": 5,
+          "1.08": 4,
+          "0.48": 4,
+          "0.74": 4,
+          "0.39": 4,
+          "1.36": 4,
+          "0.95": 3,
+          "0.67": 3,
+          "0.79": 3,
+          "0.52": 3,
+          "0.28": 3,
+          "2.14": 2,
+          "2.07": 2,
+          "0.6": 2,
+          "1.05": 2,
+          "1.98": 2,
+          "0.71": 2,
+          "2.39": 2,
+          "1.69": 2,
+          "0.77": 2,
+          "1.09": 2,
+          "3.02": 2,
+          "0.72": 2,
+          "1.01": 2,
+          "0.54": 2,
+          "2.36": 2,
+          "0.81": 2,
+          "0.8": 2,
+          "0.59": 2,
+          "1.2": 2,
+          "0.92": 2,
+          "0.76": 2,
+          "1.97": 2,
+          "1.83": 2,
+          "0.83": 2,
+          "1.19": 2,
+          "0.7": 2,
+          "0.51": 2,
+          "0.82": 2,
+          "1.89": 2,
+          "0.99": 2,
+          "12.46": 2,
+          "1.13": 1,
+          "0.69": 1,
+          "2.4": 1,
+          "6.03": 1,
+          "3.18": 1,
+          "0.93": 1,
+          "1.57": 1,
+          "0.86": 1,
+          "0.78": 1,
+          "1.24": 1,
+          "2.12": 1,
+          "0.94": 1,
+          "1.06": 1,
+          "1.12": 1,
+          "1.7": 1,
+          "1.74": 1,
+          "0.58": 1,
+          "0.96": 1,
+          "1.55": 1,
+          "1.81": 1,
+          "0.68": 1,
+          "0.75": 1,
+          "1.11": 1,
+          "1.03": 1,
+          "1.29": 1,
+          "1.82": 1,
+          "2.46": 1
+        },
+        "Defective": {
+          "N": 1942,
+          "Y": 46
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:03.060836"
+    },
+    "MC2": {
+      "filename": "MC2.arff",
+      "relation_name": "MC2",
+      "num_instances": 125,
+      "num_attributes": 40,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "CALL_PAIRS": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 3
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 4
+        },
+        "CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 5
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "CYCLOMATIC_DENSITY": {
+          "type": "numeric",
+          "index": 7
+        },
+        "DECISION_COUNT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "DECISION_DENSITY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 10
+        },
+        "DESIGN_DENSITY": {
+          "type": "numeric",
+          "index": 11
+        },
+        "EDGE_COUNT": {
+          "type": "numeric",
+          "index": 12
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 13
+        },
+        "ESSENTIAL_DENSITY": {
+          "type": "numeric",
+          "index": 14
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 15
+        },
+        "PARAMETER_COUNT": {
+          "type": "numeric",
+          "index": 16
+        },
+        "GLOBAL_DATA_COMPLEXITY": {
+          "type": "numeric",
+          "index": 17
+        },
+        "GLOBAL_DATA_DENSITY": {
+          "type": "numeric",
+          "index": 18
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 19
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 20
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 21
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 22
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 23
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 24
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 25
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 26
+        },
+        "MAINTENANCE_SEVERITY": {
+          "type": "numeric",
+          "index": 27
+        },
+        "MODIFIED_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 28
+        },
+        "MULTIPLE_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 29
+        },
+        "NODE_COUNT": {
+          "type": "numeric",
+          "index": 30
+        },
+        "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 31
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 32
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 33
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 34
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 35
+        },
+        "NUMBER_OF_LINES": {
+          "type": "numeric",
+          "index": 36
+        },
+        "PERCENT_COMMENTS": {
+          "type": "numeric",
+          "index": 37
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 38
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 39
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.04": 12,
+          "0.18": 7,
+          "0.02": 5,
+          "0.2": 5,
+          "0.26": 4,
+          "0.03": 4,
+          "0.09": 4,
+          "0.08": 4,
+          "0.1": 4,
+          "0.05": 3,
+          "0.01": 3,
+          "0.11": 2,
+          "0.35": 2,
+          "0.69": 2,
+          "0.25": 2,
+          "0.32": 2,
+          "0.15": 2,
+          "0.06": 2,
+          "0.39": 2,
+          "0.12": 2,
+          "0.07": 2,
+          "0.19": 2,
+          "0.17": 2,
+          "0.29": 1,
+          "2.29": 1,
+          "0.76": 1,
+          "0.93": 1,
+          "0.6": 1,
+          "0.33": 1,
+          "0.16": 1,
+          "0.0": 1,
+          "0.24": 1,
+          "0.27": 1,
+          "0.73": 1,
+          "0.4": 1,
+          "0.84": 1,
+          "0.95": 1,
+          "0.56": 1,
+          "0.65": 1,
+          "0.43": 1,
+          "0.48": 1,
+          "0.83": 1,
+          "0.31": 1,
+          "1.24": 1,
+          "0.68": 1,
+          "0.88": 1,
+          "0.52": 1,
+          "0.14": 1,
+          "3.44": 1,
+          "1.33": 1,
+          "1.23": 1,
+          "0.78": 1,
+          "2.74": 1,
+          "1.76": 1,
+          "0.3": 1,
+          "0.37": 1,
+          "1.02": 1,
+          "0.81": 1,
+          "0.7": 1,
+          "0.49": 1,
+          "0.63": 1,
+          "0.85": 1,
+          "2.4": 1,
+          "1.34": 1,
+          "0.87": 1,
+          "0.34": 1,
+          "1.47": 1,
+          "0.57": 1,
+          "0.21": 1
+        },
+        "Defective": {
+          "N": 81,
+          "Y": 44
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:03.119761"
+    },
+    "MW1": {
+      "filename": "MW1.arff",
+      "relation_name": "MW1",
+      "num_instances": 253,
+      "num_attributes": 38,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "CALL_PAIRS": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 3
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 4
+        },
+        "CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 5
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "CYCLOMATIC_DENSITY": {
+          "type": "numeric",
+          "index": 7
+        },
+        "DECISION_COUNT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "DECISION_DENSITY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 10
+        },
+        "DESIGN_DENSITY": {
+          "type": "numeric",
+          "index": 11
+        },
+        "EDGE_COUNT": {
+          "type": "numeric",
+          "index": 12
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 13
+        },
+        "ESSENTIAL_DENSITY": {
+          "type": "numeric",
+          "index": 14
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 15
+        },
+        "PARAMETER_COUNT": {
+          "type": "numeric",
+          "index": 16
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 17
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 18
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 19
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 20
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 21
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 22
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 23
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 24
+        },
+        "MAINTENANCE_SEVERITY": {
+          "type": "numeric",
+          "index": 25
+        },
+        "MODIFIED_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 26
+        },
+        "MULTIPLE_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 27
+        },
+        "NODE_COUNT": {
+          "type": "numeric",
+          "index": 28
+        },
+        "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 29
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 30
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 31
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 32
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 33
+        },
+        "NUMBER_OF_LINES": {
+          "type": "numeric",
+          "index": 34
+        },
+        "PERCENT_COMMENTS": {
+          "type": "numeric",
+          "index": 35
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 36
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 37
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.04": 15,
+          "0.06": 15,
+          "0.07": 15,
+          "0.08": 12,
+          "0.02": 11,
+          "0.1": 11,
+          "0.05": 10,
+          "0.13": 9,
+          "0.03": 9,
+          "0.12": 9,
+          "0.09": 8,
+          "0.14": 7,
+          "0.25": 7,
+          "0.18": 5,
+          "0.11": 5,
+          "0.2": 5,
+          "0.16": 5,
+          "0.15": 4,
+          "0.19": 4,
+          "0.29": 4,
+          "0.24": 4,
+          "0.21": 4,
+          "0.22": 4,
+          "0.47": 3,
+          "0.01": 3,
+          "0.48": 3,
+          "0.23": 3,
+          "0.3": 3,
+          "0.41": 3,
+          "0.46": 3,
+          "0.26": 3,
+          "0.45": 3,
+          "0.36": 3,
+          "0.38": 3,
+          "0.54": 3,
+          "0.17": 3,
+          "0.34": 2,
+          "0.72": 2,
+          "0.49": 2,
+          "0.37": 2,
+          "0.32": 2,
+          "0.39": 2,
+          "0.42": 2,
+          "0.6": 2,
+          "0.27": 1,
+          "0.4": 1,
+          "0.43": 1,
+          "0.28": 1,
+          "1.1": 1,
+          "1.24": 1,
+          "0.59": 1,
+          "0.88": 1,
+          "0.52": 1,
+          "0.7": 1,
+          "0.58": 1,
+          "0.55": 1,
+          "0.57": 1,
+          "0.87": 1,
+          "0.51": 1,
+          "0.35": 1
+        },
+        "Defective": {
+          "N": 226,
+          "Y": 27
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:03.146757"
+    },
+    "PC1": {
+      "filename": "PC1.arff",
+      "relation_name": "PC1",
+      "num_instances": 705,
+      "num_attributes": 38,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "CALL_PAIRS": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 3
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 4
+        },
+        "CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 5
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "CYCLOMATIC_DENSITY": {
+          "type": "numeric",
+          "index": 7
+        },
+        "DECISION_COUNT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "DECISION_DENSITY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 10
+        },
+        "DESIGN_DENSITY": {
+          "type": "numeric",
+          "index": 11
+        },
+        "EDGE_COUNT": {
+          "type": "numeric",
+          "index": 12
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 13
+        },
+        "ESSENTIAL_DENSITY": {
+          "type": "numeric",
+          "index": 14
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 15
+        },
+        "PARAMETER_COUNT": {
+          "type": "numeric",
+          "index": 16
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 17
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 18
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 19
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 20
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 21
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 22
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 23
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 24
+        },
+        "MAINTENANCE_SEVERITY": {
+          "type": "numeric",
+          "index": 25
+        },
+        "MODIFIED_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 26
+        },
+        "MULTIPLE_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 27
+        },
+        "NODE_COUNT": {
+          "type": "numeric",
+          "index": 28
+        },
+        "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 29
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 30
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 31
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 32
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 33
+        },
+        "NUMBER_OF_LINES": {
+          "type": "numeric",
+          "index": 34
+        },
+        "PERCENT_COMMENTS": {
+          "type": "numeric",
+          "index": 35
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 36
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 37
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.05": 43,
+          "0.03": 36,
+          "0.06": 35,
+          "0.04": 30,
+          "0.07": 28,
+          "0.08": 27,
+          "0.1": 26,
+          "0.12": 24,
+          "0.11": 23,
+          "0.02": 22,
+          "0.09": 21,
+          "0.15": 18,
+          "0.16": 17,
+          "0.2": 16,
+          "0.19": 15,
+          "0.13": 14,
+          "0.22": 12,
+          "0.14": 12,
+          "0.18": 11,
+          "0.26": 11,
+          "0.17": 11,
+          "0.25": 10,
+          "0.01": 9,
+          "0.27": 8,
+          "0.44": 7,
+          "0.48": 7,
+          "0.23": 7,
+          "0.29": 7,
+          "0.32": 6,
+          "0.51": 6,
+          "0.34": 6,
+          "0.21": 6,
+          "0.45": 6,
+          "0.24": 6,
+          "0.5": 5,
+          "0.7": 5,
+          "0.33": 5,
+          "0.52": 5,
+          "0.36": 4,
+          "0.3": 4,
+          "0.79": 4,
+          "0.4": 4,
+          "0.39": 4,
+          "0.95": 3,
+          "0.47": 3,
+          "1.18": 3,
+          "0.43": 3,
+          "0.58": 3,
+          "0.28": 3,
+          "0.96": 3,
+          "0.63": 3,
+          "0.41": 3,
+          "0.35": 2,
+          "1.02": 2,
+          "0.73": 2,
+          "0.9": 2,
+          "0.55": 2,
+          "0.86": 2,
+          "0.89": 2,
+          "0.81": 2,
+          "0.38": 2,
+          "0.98": 2,
+          "1.07": 2,
+          "2.67": 2,
+          "1.25": 2,
+          "0.6": 2,
+          "0.71": 2,
+          "0.72": 2,
+          "1.17": 2,
+          "0.64": 2,
+          "0.57": 2,
+          "0.37": 2,
+          "0.61": 2,
+          "1.43": 2,
+          "0.59": 2,
+          "0.67": 2,
+          "0.31": 2,
+          "8.65": 1,
+          "1.63": 1,
+          "2.42": 1,
+          "1.1": 1,
+          "0.78": 1,
+          "0.56": 1,
+          "2.31": 1,
+          "1.55": 1,
+          "1.26": 1,
+          "1.92": 1,
+          "0.84": 1,
+          "1.56": 1,
+          "0.66": 1,
+          "0.83": 1,
+          "5.27": 1,
+          "1.06": 1,
+          "1.58": 1,
+          "2.36": 1,
+          "0.69": 1,
+          "1.52": 1,
+          "0.99": 1,
+          "1.47": 1,
+          "1.13": 1,
+          "0.91": 1,
+          "1.81": 1,
+          "0.46": 1,
+          "0.77": 1,
+          "2.17": 1,
+          "1.57": 1,
+          "1.03": 1,
+          "1.75": 1,
+          "0.85": 1,
+          "1.04": 1,
+          "1.98": 1,
+          "2.39": 1,
+          "0.68": 1,
+          "0.65": 1,
+          "2.38": 1,
+          "6.9": 1,
+          "1.0": 1,
+          "2.27": 1,
+          "1.28": 1,
+          "1.01": 1,
+          "0.49": 1,
+          "1.23": 1
+        },
+        "Defective": {
+          "N": 644,
+          "Y": 61
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:03.180849"
+    },
+    "PC2": {
+      "filename": "PC2.arff",
+      "relation_name": "PC2",
+      "num_instances": 745,
+      "num_attributes": 37,
+      "attribute_info": {
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 0
+        },
+        "CALL_PAIRS": {
+          "type": "numeric",
+          "index": 1
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 3
+        },
+        "CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 4
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 5
+        },
+        "CYCLOMATIC_DENSITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "DECISION_COUNT": {
+          "type": "numeric",
+          "index": 7
+        },
+        "DECISION_DENSITY": {
+          "type": "numeric",
+          "index": 8
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "DESIGN_DENSITY": {
+          "type": "numeric",
+          "index": 10
+        },
+        "EDGE_COUNT": {
+          "type": "numeric",
+          "index": 11
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 12
+        },
+        "ESSENTIAL_DENSITY": {
+          "type": "numeric",
+          "index": 13
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 14
+        },
+        "PARAMETER_COUNT": {
+          "type": "numeric",
+          "index": 15
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 16
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 17
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 18
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 19
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 20
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 21
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 22
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 23
+        },
+        "MAINTENANCE_SEVERITY": {
+          "type": "numeric",
+          "index": 24
+        },
+        "MODIFIED_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 25
+        },
+        "MULTIPLE_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 26
+        },
+        "NODE_COUNT": {
+          "type": "numeric",
+          "index": 27
+        },
+        "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 28
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 29
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 30
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 31
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 32
+        },
+        "NUMBER_OF_LINES": {
+          "type": "numeric",
+          "index": 33
+        },
+        "PERCENT_COMMENTS": {
+          "type": "numeric",
+          "index": 34
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 35
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 36
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.03": 95,
+          "0.02": 83,
+          "0.04": 67,
+          "0.01": 64,
+          "0.05": 50,
+          "0.07": 41,
+          "0.06": 38,
+          "0.08": 32,
+          "0.1": 30,
+          "0.09": 27,
+          "0.12": 20,
+          "0.11": 20,
+          "0.13": 17,
+          "0.14": 16,
+          "0.19": 12,
+          "0.16": 8,
+          "0.21": 7,
+          "0.15": 7,
+          "0.2": 5,
+          "0.27": 5,
+          "0.25": 5,
+          "0.17": 5,
+          "0.18": 5,
+          "0.22": 4,
+          "0.29": 4,
+          "0.23": 4,
+          "0.28": 3,
+          "0.4": 3,
+          "0.32": 3,
+          "0.37": 3,
+          "0.36": 3,
+          "0.45": 3,
+          "0.57": 3,
+          "0.92": 3,
+          "0.35": 2,
+          "0.34": 2,
+          "0.74": 2,
+          "0.33": 2,
+          "0.3": 2,
+          "0.0": 2,
+          "0.53": 2,
+          "0.71": 2,
+          "0.31": 2,
+          "2.65": 1,
+          "0.6": 1,
+          "0.7": 1,
+          "0.42": 1,
+          "1.39": 1,
+          "0.54": 1,
+          "1.34": 1,
+          "5.52": 1,
+          "1.08": 1,
+          "3.34": 1,
+          "1.29": 1,
+          "0.43": 1,
+          "0.39": 1,
+          "0.79": 1,
+          "0.72": 1,
+          "1.56": 1,
+          "0.64": 1,
+          "0.49": 1,
+          "3.18": 1,
+          "0.26": 1,
+          "0.56": 1,
+          "0.52": 1,
+          "0.48": 1,
+          "0.62": 1,
+          "0.5": 1,
+          "0.44": 1,
+          "0.66": 1,
+          "1.11": 1,
+          "2.05": 1,
+          "2.16": 1,
+          "0.41": 1,
+          "1.42": 1
+        },
+        "Defective": {
+          "N": 729,
+          "Y": 16
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:03.228143"
+    },
+    "PC3": {
+      "filename": "PC3.arff",
+      "relation_name": "PC3",
+      "num_instances": 1077,
+      "num_attributes": 38,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "CALL_PAIRS": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 3
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 4
+        },
+        "CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 5
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "CYCLOMATIC_DENSITY": {
+          "type": "numeric",
+          "index": 7
+        },
+        "DECISION_COUNT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "DECISION_DENSITY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 10
+        },
+        "DESIGN_DENSITY": {
+          "type": "numeric",
+          "index": 11
+        },
+        "EDGE_COUNT": {
+          "type": "numeric",
+          "index": 12
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 13
+        },
+        "ESSENTIAL_DENSITY": {
+          "type": "numeric",
+          "index": 14
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 15
+        },
+        "PARAMETER_COUNT": {
+          "type": "numeric",
+          "index": 16
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 17
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 18
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 19
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 20
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 21
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 22
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 23
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 24
+        },
+        "MAINTENANCE_SEVERITY": {
+          "type": "numeric",
+          "index": 25
+        },
+        "MODIFIED_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 26
+        },
+        "MULTIPLE_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 27
+        },
+        "NODE_COUNT": {
+          "type": "numeric",
+          "index": 28
+        },
+        "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 29
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 30
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 31
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 32
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 33
+        },
+        "NUMBER_OF_LINES": {
+          "type": "numeric",
+          "index": 34
+        },
+        "PERCENT_COMMENTS": {
+          "type": "numeric",
+          "index": 35
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 36
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 37
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.05": 59,
+          "0.04": 58,
+          "0.07": 58,
+          "0.06": 53,
+          "0.08": 53,
+          "0.03": 52,
+          "0.09": 39,
+          "0.1": 39,
+          "0.02": 33,
+          "0.11": 31,
+          "0.15": 28,
+          "0.16": 25,
+          "0.12": 24,
+          "0.22": 21,
+          "0.19": 20,
+          "0.14": 19,
+          "0.17": 19,
+          "0.13": 19,
+          "0.21": 18,
+          "0.01": 17,
+          "0.33": 16,
+          "0.2": 16,
+          "0.18": 16,
+          "0.25": 15,
+          "0.26": 13,
+          "0.23": 12,
+          "0.24": 12,
+          "0.29": 10,
+          "0.31": 10,
+          "0.34": 10,
+          "0.4": 9,
+          "0.28": 9,
+          "0.3": 9,
+          "0.45": 9,
+          "0.5": 8,
+          "0.51": 8,
+          "0.36": 7,
+          "0.37": 7,
+          "0.27": 7,
+          "0.43": 6,
+          "0.39": 6,
+          "0.35": 6,
+          "0.54": 6,
+          "0.8": 5,
+          "0.44": 5,
+          "0.95": 5,
+          "0.41": 5,
+          "0.48": 5,
+          "0.6": 4,
+          "0.68": 4,
+          "0.59": 4,
+          "1.03": 4,
+          "0.57": 4,
+          "0.38": 3,
+          "0.74": 3,
+          "0.55": 3,
+          "0.46": 3,
+          "0.58": 3,
+          "0.72": 3,
+          "0.32": 3,
+          "1.28": 3,
+          "0.7": 3,
+          "0.47": 2,
+          "0.67": 2,
+          "0.92": 2,
+          "1.02": 2,
+          "0.76": 2,
+          "0.99": 2,
+          "0.71": 2,
+          "0.56": 2,
+          "0.42": 2,
+          "0.62": 2,
+          "1.01": 2,
+          "0.89": 2,
+          "1.44": 2,
+          "0.82": 2,
+          "0.61": 2,
+          "1.07": 2,
+          "0.83": 2,
+          "1.62": 2,
+          "5.31": 1,
+          "0.91": 1,
+          "2.82": 1,
+          "2.45": 1,
+          "1.94": 1,
+          "0.98": 1,
+          "2.27": 1,
+          "0.64": 1,
+          "1.17": 1,
+          "1.13": 1,
+          "0.78": 1,
+          "2.94": 1,
+          "1.63": 1,
+          "17.97": 1,
+          "2.38": 1,
+          "0.94": 1,
+          "0.97": 1,
+          "1.7": 1,
+          "0.96": 1,
+          "1.05": 1,
+          "0.88": 1,
+          "30.95": 1,
+          "0.75": 1,
+          "0.93": 1,
+          "0.87": 1,
+          "1.55": 1,
+          "2.36": 1,
+          "5.57": 1,
+          "1.31": 1,
+          "2.88": 1,
+          "3.59": 1,
+          "2.1": 1,
+          "0.86": 1,
+          "0.85": 1,
+          "1.92": 1,
+          "3.9": 1,
+          "1.85": 1,
+          "2.93": 1,
+          "1.43": 1,
+          "1.06": 1,
+          "1.56": 1,
+          "0.84": 1,
+          "1.53": 1,
+          "2.3": 1,
+          "1.21": 1,
+          "3.12": 1,
+          "5.67": 1,
+          "2.2": 1,
+          "1.81": 1,
+          "0.81": 1,
+          "0.69": 1,
+          "2.39": 1,
+          "4.05": 1,
+          "1.37": 1,
+          "2.31": 1,
+          "10.06": 1,
+          "2.42": 1
+        },
+        "Defective": {
+          "N": 943,
+          "Y": 134
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:03.279208"
+    },
+    "PC4": {
+      "filename": "PC4.arff",
+      "relation_name": "PC4",
+      "num_instances": 1287,
+      "num_attributes": 38,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "CALL_PAIRS": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 3
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 4
+        },
+        "CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 5
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "CYCLOMATIC_DENSITY": {
+          "type": "numeric",
+          "index": 7
+        },
+        "DECISION_COUNT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "DECISION_DENSITY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 10
+        },
+        "DESIGN_DENSITY": {
+          "type": "numeric",
+          "index": 11
+        },
+        "EDGE_COUNT": {
+          "type": "numeric",
+          "index": 12
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 13
+        },
+        "ESSENTIAL_DENSITY": {
+          "type": "numeric",
+          "index": 14
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 15
+        },
+        "PARAMETER_COUNT": {
+          "type": "numeric",
+          "index": 16
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 17
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 18
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 19
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 20
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 21
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 22
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 23
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 24
+        },
+        "MAINTENANCE_SEVERITY": {
+          "type": "numeric",
+          "index": 25
+        },
+        "MODIFIED_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 26
+        },
+        "MULTIPLE_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 27
+        },
+        "NODE_COUNT": {
+          "type": "numeric",
+          "index": 28
+        },
+        "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 29
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 30
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 31
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 32
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 33
+        },
+        "NUMBER_OF_LINES": {
+          "type": "numeric",
+          "index": 34
+        },
+        "PERCENT_COMMENTS": {
+          "type": "numeric",
+          "index": 35
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 36
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 37
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.03": 101,
+          "0.05": 86,
+          "0.01": 81,
+          "0.02": 79,
+          "0.04": 78,
+          "0.07": 63,
+          "0.06": 62,
+          "0.09": 48,
+          "0.08": 44,
+          "0.11": 35,
+          "0.1": 35,
+          "0.16": 33,
+          "0.13": 27,
+          "0.0": 26,
+          "0.17": 24,
+          "0.15": 24,
+          "0.14": 23,
+          "0.21": 22,
+          "0.12": 21,
+          "0.19": 21,
+          "0.2": 17,
+          "0.22": 17,
+          "0.18": 16,
+          "0.28": 15,
+          "0.23": 13,
+          "0.24": 13,
+          "0.25": 12,
+          "0.31": 11,
+          "0.37": 10,
+          "0.3": 8,
+          "0.34": 8,
+          "0.27": 8,
+          "0.36": 8,
+          "0.4": 7,
+          "0.38": 6,
+          "0.35": 6,
+          "0.26": 6,
+          "0.32": 6,
+          "0.47": 6,
+          "0.33": 6,
+          "0.44": 6,
+          "0.42": 5,
+          "0.29": 5,
+          "0.55": 5,
+          "0.43": 5,
+          "0.51": 5,
+          "0.49": 4,
+          "0.41": 4,
+          "0.62": 4,
+          "0.75": 3,
+          "0.59": 3,
+          "0.56": 3,
+          "0.46": 3,
+          "0.53": 3,
+          "0.89": 3,
+          "0.52": 3,
+          "0.7": 3,
+          "0.79": 3,
+          "0.65": 3,
+          "0.54": 3,
+          "0.93": 3,
+          "0.58": 3,
+          "0.66": 2,
+          "0.64": 2,
+          "0.95": 2,
+          "0.96": 2,
+          "0.76": 2,
+          "0.99": 2,
+          "0.91": 2,
+          "0.88": 2,
+          "0.82": 2,
+          "0.45": 2,
+          "0.5": 2,
+          "0.85": 2,
+          "0.78": 2,
+          "0.77": 2,
+          "0.8": 2,
+          "8.74": 1,
+          "0.86": 1,
+          "2.11": 1,
+          "0.74": 1,
+          "3.41": 1,
+          "1.35": 1,
+          "0.87": 1,
+          "2.08": 1,
+          "0.63": 1,
+          "0.97": 1,
+          "2.72": 1,
+          "0.67": 1,
+          "1.85": 1,
+          "0.92": 1,
+          "1.33": 1,
+          "0.68": 1,
+          "0.72": 1,
+          "1.3": 1,
+          "0.6": 1,
+          "1.06": 1,
+          "1.18": 1,
+          "2.53": 1,
+          "0.84": 1,
+          "1.37": 1,
+          "0.83": 1,
+          "0.69": 1,
+          "0.48": 1,
+          "0.71": 1,
+          "1.17": 1,
+          "0.81": 1,
+          "0.39": 1,
+          "1.66": 1,
+          "1.28": 1,
+          "6.34": 1,
+          "2.4": 1,
+          "1.2": 1,
+          "0.98": 1,
+          "1.1": 1,
+          "1.29": 1,
+          "2.0": 1,
+          "1.11": 1,
+          "1.51": 1,
+          "3.57": 1
+        },
+        "Defective": {
+          "N": 1110,
+          "Y": 177
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:03.344561"
+    },
+    "PC5": {
+      "filename": "PC5.arff",
+      "relation_name": "PC5",
+      "num_instances": 1711,
+      "num_attributes": 39,
+      "attribute_info": {
+        "LOC_BLANK": {
+          "type": "numeric",
+          "index": 0
+        },
+        "BRANCH_COUNT": {
+          "type": "numeric",
+          "index": 1
+        },
+        "CALL_PAIRS": {
+          "type": "numeric",
+          "index": 2
+        },
+        "LOC_CODE_AND_COMMENT": {
+          "type": "numeric",
+          "index": 3
+        },
+        "LOC_COMMENTS": {
+          "type": "numeric",
+          "index": 4
+        },
+        "CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 5
+        },
+        "CYCLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 6
+        },
+        "CYCLOMATIC_DENSITY": {
+          "type": "numeric",
+          "index": 7
+        },
+        "DECISION_COUNT": {
+          "type": "numeric",
+          "index": 8
+        },
+        "DESIGN_COMPLEXITY": {
+          "type": "numeric",
+          "index": 9
+        },
+        "DESIGN_DENSITY": {
+          "type": "numeric",
+          "index": 10
+        },
+        "EDGE_COUNT": {
+          "type": "numeric",
+          "index": 11
+        },
+        "ESSENTIAL_COMPLEXITY": {
+          "type": "numeric",
+          "index": 12
+        },
+        "ESSENTIAL_DENSITY": {
+          "type": "numeric",
+          "index": 13
+        },
+        "LOC_EXECUTABLE": {
+          "type": "numeric",
+          "index": 14
+        },
+        "PARAMETER_COUNT": {
+          "type": "numeric",
+          "index": 15
+        },
+        "GLOBAL_DATA_COMPLEXITY": {
+          "type": "numeric",
+          "index": 16
+        },
+        "GLOBAL_DATA_DENSITY": {
+          "type": "numeric",
+          "index": 17
+        },
+        "HALSTEAD_CONTENT": {
+          "type": "numeric",
+          "index": 18
+        },
+        "HALSTEAD_DIFFICULTY": {
+          "type": "numeric",
+          "index": 19
+        },
+        "HALSTEAD_EFFORT": {
+          "type": "numeric",
+          "index": 20
+        },
+        "HALSTEAD_ERROR_EST": {
+          "type": "numeric",
+          "index": 21
+        },
+        "HALSTEAD_LENGTH": {
+          "type": "numeric",
+          "index": 22
+        },
+        "HALSTEAD_LEVEL": {
+          "type": "numeric",
+          "index": 23
+        },
+        "HALSTEAD_PROG_TIME": {
+          "type": "numeric",
+          "index": 24
+        },
+        "HALSTEAD_VOLUME": {
+          "type": "numeric",
+          "index": 25
+        },
+        "MAINTENANCE_SEVERITY": {
+          "type": "numeric",
+          "index": 26
+        },
+        "MODIFIED_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 27
+        },
+        "MULTIPLE_CONDITION_COUNT": {
+          "type": "numeric",
+          "index": 28
+        },
+        "NODE_COUNT": {
+          "type": "numeric",
+          "index": 29
+        },
+        "NORMALIZED_CYLOMATIC_COMPLEXITY": {
+          "type": "numeric",
+          "index": 30
+        },
+        "NUM_OPERANDS": {
+          "type": "numeric",
+          "index": 31
+        },
+        "NUM_OPERATORS": {
+          "type": "numeric",
+          "index": 32
+        },
+        "NUM_UNIQUE_OPERANDS": {
+          "type": "numeric",
+          "index": 33
+        },
+        "NUM_UNIQUE_OPERATORS": {
+          "type": "numeric",
+          "index": 34
+        },
+        "NUMBER_OF_LINES": {
+          "type": "numeric",
+          "index": 35
+        },
+        "PERCENT_COMMENTS": {
+          "type": "numeric",
+          "index": 36
+        },
+        "LOC_TOTAL": {
+          "type": "numeric",
+          "index": 37
+        },
+        "Defective": {
+          "type": "nominal",
+          "index": 38
+        }
+      },
+      "class_distribution": {
+        "HALSTEAD_ERROR_EST": {
+          "0.01": 159,
+          "0.0": 103,
+          "0.02": 97,
+          "0.03": 84,
+          "0.05": 79,
+          "0.04": 78,
+          "0.07": 61,
+          "0.09": 53,
+          "0.08": 52,
+          "0.06": 50,
+          "0.12": 44,
+          "0.11": 44,
+          "0.1": 42,
+          "0.19": 25,
+          "0.2": 21,
+          "0.17": 21,
+          "0.16": 20,
+          "0.25": 20,
+          "0.15": 20,
+          "0.21": 19,
+          "0.13": 19,
+          "0.24": 18,
+          "0.32": 17,
+          "0.22": 17,
+          "0.28": 16,
+          "0.23": 14,
+          "0.26": 13,
+          "0.18": 13,
+          "0.14": 13,
+          "0.4": 12,
+          "0.27": 12,
+          "0.36": 10,
+          "0.45": 10,
+          "0.39": 10,
+          "0.47": 10,
+          "0.3": 9,
+          "0.41": 9,
+          "0.44": 9,
+          "0.35": 8,
+          "0.34": 8,
+          "0.37": 8,
+          "0.33": 8,
+          "0.6": 7,
+          "0.38": 7,
+          "0.42": 6,
+          "0.59": 6,
+          "0.31": 6,
+          "0.61": 6,
+          "0.43": 6,
+          "0.68": 5,
+          "0.64": 5,
+          "0.57": 5,
+          "0.7": 5,
+          "0.54": 5,
+          "0.29": 5,
+          "0.5": 5,
+          "0.52": 5,
+          "0.58": 5,
+          "0.56": 5,
+          "0.96": 5,
+          "0.51": 4,
+          "0.46": 4,
+          "0.48": 4,
+          "0.49": 4,
+          "0.89": 4,
+          "0.79": 3,
+          "2.62": 3,
+          "1.14": 3,
+          "0.72": 3,
+          "1.21": 3,
+          "0.99": 3,
+          "0.78": 3,
+          "1.43": 3,
+          "7.27": 2,
+          "0.97": 2,
+          "1.78": 2,
+          "1.01": 2,
+          "1.79": 2,
+          "2.06": 2,
+          "0.74": 2,
+          "1.58": 2,
+          "2.57": 2,
+          "1.09": 2,
+          "0.86": 2,
+          "1.16": 2,
+          "1.36": 2,
+          "0.71": 2,
+          "0.65": 2,
+          "1.19": 2,
+          "0.8": 2,
+          "0.69": 2,
+          "1.24": 2,
+          "0.95": 2,
+          "0.63": 2,
+          "2.17": 2,
+          "2.94": 2,
+          "3.85": 2,
+          "6.12": 2,
+          "1.07": 2,
+          "1.8": 2,
+          "0.66": 2,
+          "0.93": 2,
+          "0.55": 2,
+          "0.53": 2,
+          "1.55": 2,
+          "1.0": 2,
+          "1.23": 2,
+          "0.87": 2,
+          "1.98": 1,
+          "26.73": 1,
+          "1.25": 1,
+          "20.0": 1,
+          "14.0": 1,
+          "3.74": 1,
+          "4.68": 1,
+          "2.6": 1,
+          "2.18": 1,
+          "1.82": 1,
+          "2.89": 1,
+          "2.43": 1,
+          "1.06": 1,
+          "1.63": 1,
+          "4.69": 1,
+          "2.35": 1,
+          "0.62": 1,
+          "2.56": 1,
+          "10.03": 1,
+          "3.37": 1,
+          "1.12": 1,
+          "2.88": 1,
+          "3.63": 1,
+          "2.38": 1,
+          "8.06": 1,
+          "6.19": 1,
+          "12.43": 1,
+          "1.47": 1,
+          "10.88": 1,
+          "2.66": 1,
+          "3.91": 1,
+          "1.61": 1,
+          "1.39": 1,
+          "16.03": 1,
+          "2.07": 1,
+          "1.27": 1,
+          "5.7": 1,
+          "4.24": 1,
+          "18.6": 1,
+          "2.61": 1,
+          "4.79": 1,
+          "4.17": 1,
+          "4.14": 1,
+          "6.85": 1,
+          "30.16": 1,
+          "4.66": 1,
+          "13.05": 1,
+          "2.85": 1,
+          "12.55": 1,
+          "1.5": 1,
+          "12.67": 1,
+          "11.74": 1,
+          "2.29": 1,
+          "2.47": 1,
+          "4.78": 1,
+          "6.37": 1,
+          "2.9": 1,
+          "1.35": 1,
+          "1.64": 1,
+          "8.2": 1,
+          "4.38": 1,
+          "27.82": 1,
+          "58.22": 1,
+          "3.56": 1,
+          "2.2": 1,
+          "2.39": 1,
+          "1.04": 1,
+          "22.07": 1,
+          "15.37": 1,
+          "3.71": 1,
+          "1.05": 1,
+          "8.41": 1,
+          "9.39": 1,
+          "9.84": 1,
+          "0.88": 1,
+          "9.24": 1,
+          "6.03": 1,
+          "1.48": 1,
+          "7.61": 1,
+          "1.02": 1,
+          "5.5": 1,
+          "2.0": 1,
+          "0.98": 1,
+          "7.63": 1,
+          "1.29": 1,
+          "4.67": 1,
+          "1.34": 1,
+          "0.84": 1,
+          "4.49": 1,
+          "25.16": 1,
+          "42.67": 1,
+          "10.29": 1,
+          "3.45": 1,
+          "0.75": 1,
+          "2.8": 1,
+          "6.41": 1,
+          "10.41": 1,
+          "14.05": 1,
+          "2.28": 1,
+          "1.13": 1,
+          "10.84": 1,
+          "1.94": 1,
+          "7.46": 1,
+          "12.51": 1,
+          "1.44": 1,
+          "3.73": 1,
+          "2.46": 1,
+          "0.73": 1,
+          "1.89": 1,
+          "5.92": 1,
+          "6.89": 1,
+          "2.3": 1,
+          "1.75": 1,
+          "0.82": 1,
+          "13.74": 1,
+          "5.91": 1,
+          "1.26": 1,
+          "0.77": 1,
+          "2.09": 1,
+          "3.26": 1,
+          "1.2": 1,
+          "1.97": 1,
+          "3.28": 1,
+          "8.32": 1,
+          "7.42": 1,
+          "2.12": 1,
+          "19.7": 1,
+          "0.94": 1,
+          "1.93": 1,
+          "18.43": 1,
+          "1.83": 1,
+          "3.79": 1,
+          "1.51": 1,
+          "2.02": 1,
+          "9.44": 1,
+          "0.85": 1,
+          "4.05": 1,
+          "2.59": 1,
+          "4.88": 1,
+          "1.38": 1,
+          "33.23": 1,
+          "1.85": 1,
+          "0.83": 1
+        },
+        "Defective": {
+          "N": 1240,
+          "Y": 471
+        }
+      },
+      "missing_values": {},
+      "processed_date": "2025-07-07T14:16:03.423376"
+    }
+  }
+}

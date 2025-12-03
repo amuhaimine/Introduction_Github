@@ -1,0 +1,17 @@
+{
+  "filename": "KC4.arff",
+  "relation_name": "KC4",
+  "num_instances": 0,
+  "num_attributes": 1,
+  "attribute_info": {
+    "Defective": {
+      "type": "nominal",
+      "index": 0
+    }
+  },
+  "class_distribution": {
+    "Defective": {}
+  },
+  "missing_values": {},
+  "processed_date": "2025-07-07T14:16:03.019076"
+}
